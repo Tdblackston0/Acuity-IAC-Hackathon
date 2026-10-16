@@ -1,0 +1,60 @@
+{
+  "readmes": [
+    {
+      "Version": "1.1.1",
+      "BR": "br:shar01acrsy5qa2dvuh.azurecr.io/bicep/terra/security/keyvault:1.1.1",
+      "DisplayName": "Key Vault Pipeline",
+      "SourceDesc": "keyvault",
+      "Source": "https://ablcode.visualstudio.com/Terra/_git/terra-armt-shared-modules?path=modules/security/keyvault"
+    },
+    {
+      "Source": "https://ablcode.visualstudio.com/Terra/_git/terra-armt-shared-modules?path=modules/security/keyvault",
+      "Version": "1.1.2",
+      "BR": "br:shar01acrsy5qa2dvuh.azurecr.io/bicep/terra/security/keyvault:1.1.2",
+      "DisplayName": "Key Vault Pipeline",
+      "SourceDesc": "keyvault"
+    },
+    {
+      "BR": "br:shar01acrsy5qa2dvuh.azurecr.io/bicep/terra/security/keyvault:1.1.8",
+      "Version": "1.1.8",
+      "Source": "https://ablcode.visualstudio.com/Terra/_git/terra-armt-shared-modules?path=modules/security/keyvault",
+      "DisplayName": "Key Vault Pipeline",
+      "SourceDesc": "keyvault"
+    },
+    {
+      "DisplayName": "Key Vault Pipeline",
+      "SourceDesc": "keyvault",
+      "Version": "1.1.10",
+      "Source": "https://ablcode.visualstudio.com/Terra/_git/terra-armt-shared-modules?path=modules/security/keyvault",
+      "BR": "br:shar01acrsy5qa2dvuh.azurecr.io/bicep/terra/security/keyvault:1.1.10"
+    },
+    {
+      "SourceDesc": "keyvault",
+      "BR": "br:shar01acrsy5qa2dvuh.azurecr.io/bicep/terra/security/keyvault:1.1.12",
+      "Version": "1.1.12",
+      "DisplayName": "Key Vault Pipeline",
+      "Source": "https://ablcode.visualstudio.com/Terra/_git/terra-armt-shared-modules?path=modules/security/keyvault"
+    },
+    {
+      "Source": "https://ablcode.visualstudio.com/Terra/_git/terra-armt-shared-modules?path=modules/security/keyvault",
+      "BR": "br:shar01acrsy5qa2dvuh.azurecr.io/bicep/terra/security/keyvault:1.1.13-test",
+      "DisplayName": "Key Vault",
+      "SourceDesc": "keyvault",
+      "Version": "1.1.13-test"
+    },
+    {
+      "SourceDesc": "keyvault",
+      "DisplayName": "Key Vault",
+      "Source": "https://ablcode.visualstudio.com/Terra/_git/terra-armt-shared-modules?path=modules/security/keyvault",
+      "BR": "br:shar01acrsy5qa2dvuh.azurecr.io/bicep/terra/security/keyvault:1.1.14",
+      "Version": "1.1.14"
+    },
+    {
+      "DisplayName": "Key Vault",
+      "SourceDesc": "keyvault",
+      "Source": "https://ablcode.visualstudio.com/Terra/_git/terra-armt-shared-modules?path=modules/security/keyvault",
+      "BR": "br:shar01acrsy5qa2dvuh.azurecr.io/bicep/terra/security/keyvault:1.1.15",
+      "Version": "1.1.15"
+    }
+  ]
+}
