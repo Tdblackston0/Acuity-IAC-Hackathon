@@ -11,7 +11,7 @@ watching is equally welcome.
 
 ## Agenda
 
-This agenda follows slide 2 of [the presentation](./deck.pptx).
+This agenda follows slide 2 of [the presentation] slides will be provided at the end of the workshop.
 The deck does not specify section durations.
 
 | # | Section |
@@ -33,7 +33,7 @@ The deck does not specify section durations.
 
 Have these installed and ready:
 
-- VS Code with GitHub Copilot Chat and the Bicep extension.
+- VS Code with GitHub Copilot Chat and the Bicep extension (Optional but recommended).
 - GitHub Copilot CLI, signed in with an authorized GitHub account.
 - Git and access to the workshop repository.
 - Azure CLI with the Bicep compiler for **local compilation only**.
@@ -69,7 +69,7 @@ Work in your own workshop copy and preserve existing changes. Do not run
 **Section 7 is optional to follow along.** You can connect to the public Microsoft
 Learn MCP server and try the documentation lookup, or simply watch the facilitator.
 Setup and prompts are in section 7 of the attendee demo script. No Azure
-environment, endpoint authentication, or registry credentials are needed.
+environment, endpoint authentication, or registry credentials are needed, unless you want to.
 
 For section 3, the local Acuity modules represent **Tier 1**. Read the local
 README and source before considering AVM or custom Bicep. The local copy does not
@@ -80,21 +80,19 @@ A new repo may still load user-level or extension-provided customizations. Inspe
 the trace and applied references instead of assuming no skills are available.
 Instructions guide generation; review and automated checks are still needed.
 
-## Hacking: build something useful to your team
+## Hacking: build something useful for your team
 
 Pick a small, repeatable IaC task such as summarizing a module interface,
 preparing a consumer, or reviewing a module against local standards.
 
-Build your own combination of repository instructions, a reusable prompt, a skill,
-and a custom agent. Keep the module sourcing order explicit: **Acuity first, AVM
+Build your own combination of repository instructions, skills,
+and custom agents. Keep the module sourcing order explicit: **Acuity first, AVM
 only when no suitable Acuity module exists, custom only after both tiers miss**.
-For local exercises, use the provided Acuity module catalog; an access error is
-not proof that a tier has no suitable module.
+You do this as a local exercises, or expand this into the Acuity module catalog.
 
 Try a realistic request, inspect the files and tools used, and check the result
 against your requirements. Compile locally if you generate Bicep. Be ready to
 explain what your customization changed and what remains unverified.
 
 There is no single required agent design. Keep the scope local and non-deploying,
-and do not commit workshop-only standards as production policy. Review your diffs
-and use the attendee script's targeted cleanup steps when finished.
+and do not commit workshop-only standards as production policy.
