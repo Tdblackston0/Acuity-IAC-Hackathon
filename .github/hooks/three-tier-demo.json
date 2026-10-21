@@ -1,0 +1,20 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "pwsh -NoProfile -File \".github\\hooks\\three-tier-demo.ps1\" -Event SessionStart",
+        "cwd": ".",
+        "timeout": 10
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "type": "command",
+        "command": "pwsh -NoProfile -File \".github\\hooks\\three-tier-demo.ps1\" -Event UserPromptSubmit",
+        "cwd": ".",
+        "timeout": 10
+      }
+    ]
+  }
+}
